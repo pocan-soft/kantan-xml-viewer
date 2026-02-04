@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
         * {
             box-sizing: border-box;
         }
+
         body {
             font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
             line-height: 1.8;
@@ -17,64 +19,76 @@
             background-color: #fafafa;
             color: #333;
         }
+
         header {
             text-align: center;
             margin-bottom: 40px;
             padding-bottom: 20px;
             border-bottom: 2px solid #0078d4;
         }
+
         h1 {
             color: #0078d4;
             font-size: 1.8em;
             margin-bottom: 10px;
         }
+
         .developer {
             color: #666;
             font-size: 0.9em;
         }
+
         h2 {
             color: #0078d4;
             border-left: 4px solid #0078d4;
             padding-left: 12px;
             margin-top: 40px;
         }
+
         h3 {
             color: #444;
             margin-top: 25px;
         }
+
         .app-description {
             background-color: #fff;
             padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         .features {
             background-color: #f0f7ff;
             padding: 20px;
             border-radius: 8px;
             margin-top: 20px;
         }
+
         .features ul {
             margin: 0;
             padding-left: 20px;
         }
+
         .features li {
             margin-bottom: 8px;
         }
+
         .privacy-section {
             background-color: #fff;
             padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
         }
+
         .contact-section {
             background-color: #fff;
             padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
         }
+
         .contact-item {
             display: flex;
             align-items: center;
@@ -83,20 +97,24 @@
             background-color: #f8f8f8;
             border-radius: 6px;
         }
+
         .contact-item a {
             color: #0078d4;
             text-decoration: none;
             font-weight: bold;
         }
+
         .contact-item a:hover {
             text-decoration: underline;
         }
+
         .highlight {
             background-color: #e6f3ff;
             padding: 2px 6px;
             border-radius: 3px;
             font-weight: bold;
         }
+
         footer {
             text-align: center;
             margin-top: 50px;
@@ -105,16 +123,24 @@
             color: #666;
             font-size: 0.85em;
         }
+
         .update-date {
             color: #666;
             font-size: 0.9em;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>かんたんXML公文書ビューワー</h1>
         <p class="developer">開発：POCAN Soft.</p>
+        <div style="margin-top: 20px;">
+            <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+            <ms-store-badge productid="9N6SB3Z0W98H" productname="かんたんXML公文書ビューワー" window-mode="direct" theme="dark"
+                size="large" language="ja" animation="off">
+            </ms-store-badge>
+        </div>
     </header>
 
     <main>
@@ -125,7 +151,7 @@
                 <p>公文書を開くためにブラウザの互換モードを使う必要はありません。</p>
                 <p>e-GovからダウンロードしたZIPファイルをそのままドラッグ＆ドロップするだけで、フォントやレイアウトが崩れることなく、公文書を表示・印刷できます。</p>
                 <p>両面印刷や余白設定、枠線の表示・非表示など、細かい印刷設定も可能です。横レイアウトや複数ページ構成の書類にも対応しています。</p>
-                
+
                 <div class="features">
                     <strong>主な機能</strong>
                     <ul>
@@ -142,8 +168,8 @@
 
         <section>
             <h2>プライバシーポリシー</h2>
-            <p class="update-date">最終更新日：2026年2月1日</p>
-            
+            <p class="update-date">最終更新日：2026年2月4日</p>
+
             <div class="privacy-section">
                 <h3>はじめに</h3>
                 <p>本プライバシーポリシーは、POCAN Soft.が提供する「かんたんXML公文書ビューワー」（以下「本アプリ」）における、ユーザーの皆様の情報の取り扱いについて説明するものです。</p>
@@ -171,21 +197,13 @@
         <section>
             <h2>お問い合わせ</h2>
             <div class="contact-section">
-                <p>本アプリに関するご質問、不具合のご報告、ご要望などがございましたら、以下の方法でお気軽にお問い合わせください。</p>
-                
+                <p>本アプリに関するご質問やお問い合わせ、バグ報告などは、以下までご連絡ください。</p>
+
                 <div class="contact-item">
                     <div>
-                        <strong>X（旧Twitter）</strong><br>
-                        <a href="https://x.com/pocan_soft" target="_blank" rel="noopener noreferrer">@pocan_soft</a><br>
-                        <small>お気軽にお問い合わせください</small>
-                    </div>
-                </div>
-                
-                <div class="contact-item">
-                    <div>
-                        <strong>GitHub Issues</strong><br>
-                        <a href="https://github.com/pocan-soft/kantan-xml-viewer/issues" target="_blank" rel="noopener noreferrer">Issues ページ</a><br>
-                        <small>バグ報告・機能リクエストはこちら</small>
+                        <strong>開発者</strong>: POCAN Soft.<br>
+                        <strong>X（旧Twitter）</strong>: <a href="https://x.com/pocan_00_" target="_blank"
+                            rel="noopener noreferrer">@pocan_00_</a>
                     </div>
                 </div>
             </div>
@@ -196,4 +214,5 @@
         <p>&copy; 2026 POCAN Soft. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
